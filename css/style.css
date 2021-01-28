@@ -1,3 +1,113 @@
 * {
-  
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: lightblue;
+}
+
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pre-nav-container {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid black;
+  height: 80px;
+}
+
+.nav-container {
+  height: 80px;
+  background-color: white;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float {
+  float: left;
+}
+
+.pre-nav-float1 {
+  width: 85.6%;
+}
+
+.pre-nav-float2 {
+  width: 14.4%;
+}
+
+div.pre-nav-float1, div.pre-nav-float2 {
+  line-height: 80px;
+}
+
+.vertical-line {
+  height: 2px;
+  border-right: 1px solid grey;
+  margin: 0 1%;
+}
+
+div.pre-nav-float1 a, div.pre-nav-float2 a{
+  text-decoration: none;
+  color: grey;
+}
+
+div.pre-nav-float1 span {
+  color: grey;
+}
+
+div.pre-nav-float2 i{
+  color: #007fff;
+}
+
+div.pre-nav-float2 button:last-child {
+  color: white;
+  background-color: #ff7514;
+  width: 100px;
+  height: 30px;
+}
+
+div.pre-nav-float2 span button{
+  color: #ff7514;
+  border: 1px solid #ff7514;
+  background-color: #f7f7f7;
+  width: 70px;
+  height: 30px;
+  margin: 0 3%;
+}
+
+.nav-float1 {
+  width: 65.6%;
+}
+
+.nav-float2 {
+  width: 34.4%
+}
+
+div.nav-float1, div.nav-float2 {
+  line-height: 80px;
+}
+
+div.nav-float1 a img {
+  vertical-align: middle;
+}
+
+div.nav-float2 ul li,div.nav-float2 ul li a{
+  display: inline-block;
+  color: grey;
+  text-decoration: none;
+}
+
+div.nav-float2 ul li {
+  margin-left: 15px;
+}
+
+div.nav-float2 ul li a i{
+  margin-left: 15px;
