@@ -104,13 +104,13 @@ div.nav-float1 a img {
   vertical-align: middle;
 }
 
-div.nav-float2 ul li,div.nav-float2 ul li a{
+div.nav-float2 ul li, div.nav-float2 ul li a, div.section1-float2 ul li, div.section1-float2 ul li a{
   display: inline-block;
   color: grey;
   text-decoration: none;
 }
 
-div.nav-float2 ul li, div.nav-float2 ul li a i {
+div.nav-float2 ul li, div.nav-float2 ul li a i, div.section1-float2 ul li i, div.section1-float2 ul li a {
   margin-left: 15px;
 }
 
@@ -178,10 +178,12 @@ div.title-box h6 {
 
 .section1 {
   background-color: #f5f8fa;
-  height: 300px;
   text-align: center;
 }
 
+.fix {
+  margin-top: 20px;
+}
 div.section1 img {
   height: 120px;
   width: auto;
@@ -196,4 +198,63 @@ div.section1 p{
   width: 40%;
   margin:  2% auto;
   color: grey;
+}
+
+div.section1 div.width80 {
+  background-color: white;
+  height: 300px;
+}
+
+.section1-float1 {
+  width: 40%;
+}
+
+.section1-float2 {
+  width: 60%;
+}
+
+div.section1-float1 img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+div.section1-float1 button {
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: #ff7514;
+  width: 150px;
+  height: 50px;
+}
+
+div.section1-float2 {
+  text-align: left;
+}
+
+
+div.section1-float2 h3{
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+div.section1-float2 p {
+  color: grey;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.line {
+  display: inline-block;
+  border-top: 2px solid grey;
+  width: 65%;
+  height: 8px;
+  margin-left: 5%;
+}
+
+div.section1-float2 ul{
+  margin-top: 20px;
+}
+
+div.section1-float2 ul li span i{
+  color: #ff7514;
 }
