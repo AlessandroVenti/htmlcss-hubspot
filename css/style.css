@@ -10,13 +10,20 @@ body {
   background: lightblue;
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 900;
+  top: 0;
+}
+
 .width80 {
   width: 80%;
   margin: 0 auto;
 }
 
 .pre-nav-container {
-  background-color: #f7f7f7;
+  background-color: #f5f8fa;
   border-bottom: 1px solid black;
   height: 80px;
 }
@@ -44,7 +51,7 @@ body {
   width: 14.4%;
 }
 
-div.pre-nav-float1, div.pre-nav-float2 {
+div.pre-nav-float1, div.pre-nav-float2, div.nav-float1, div.nav-float2 {
   line-height: 80px;
 }
 
@@ -93,10 +100,6 @@ div.pre-nav-float2 span button{
   width: 34.4%
 }
 
-div.nav-float1, div.nav-float2 {
-  line-height: 80px;
-}
-
 div.nav-float1 a img {
   vertical-align: middle;
 }
@@ -107,15 +110,13 @@ div.nav-float2 ul li,div.nav-float2 ul li a{
   text-decoration: none;
 }
 
-div.nav-float2 ul li {
+div.nav-float2 ul li, div.nav-float2 ul li a i {
   margin-left: 15px;
 }
 
-div.nav-float2 ul li a i{
-  margin-left: 15px;
-}
 
 #background-image {
+  margin-top: 160px;
   background-image: url(../img/jumbotron.png);
   background-color: #fff5ef;
   width: 100%;
@@ -172,3 +173,27 @@ div.title-box h6 {
   margin-top: 20px;
   font-size: 15px;
   font-weight: normal;
+}
+
+
+.section1 {
+  background-color: #f5f8fa;
+  height: 300px;
+  text-align: center;
+}
+
+div.section1 img {
+  height: 120px;
+  width: auto;
+  margin-top: 40px;
+}
+
+div.section1 h2 {
+  font-weight: bold;
+}
+
+div.section1 p{
+  width: 40%;
+  margin:  2% auto;
+  color: grey;
+}
