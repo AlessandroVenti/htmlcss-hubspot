@@ -43,11 +43,11 @@ body {
 }
 
 .pre-nav-float1 {
-  width: 85.6%;
+  width: 80%;
 }
 
 .pre-nav-float2 {
-  width: 14.4%;
+  width: 20%;
 }
 
 div.pre-nav-float1, div.pre-nav-float2, div.nav-float1, div.nav-float2 {
@@ -65,7 +65,7 @@ div.pre-nav-float1 a, div.pre-nav-float2 a{
   color: grey;
 }
 
-div.pre-nav-float1 span {
+div.pre-nav-float1 span button{
   color: grey;
 }
 
@@ -81,7 +81,7 @@ div.pre-nav-float2 button:last-child {
   border-radius: 5px;
 }
 
-div.pre-nav-float2 span button{
+.log-in{
   color: #ff7514;
   border: 1px solid #ff7514;
   background-color: #f7f7f7;
@@ -345,7 +345,7 @@ div.section3 p{
   width: 25%;
 }
 
-#border-fix {
+.border-fix {
   border-bottom: 0;
 }
 
