@@ -7,7 +7,6 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: lightblue;
 }
 
 .fixed {
@@ -215,7 +214,7 @@ div.section1-float1 img, div.section2-float1 img, div.section2-float2 img {
   margin-bottom: 20px;
 }
 
-div.section1-float1 button, div.section2-float1 button, div.section2-float2 button {
+div.section1-float1 button, div.section2-float1 button, div.section2-float2 button, div.section4-float3 button {
   border-radius: 5px;
   font-size: 15px;
   color: white;
@@ -361,4 +360,151 @@ div.section3-float1 h2, div.section3-float2 h2, div.section3-float3 h2 {
 div.section3-float1 h6, div.section3-float2 h6, div.section3-float3 h6 {
   margin-bottom: 20px;
   font-size: 15px;
+}
+
+
+.section4 {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section4-float1 {
+  width: 35%;
+}
+
+.section4-float2 {
+  width: 65%;
+  text-align: left;
+}
+
+div.section4-float1 h2{
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+div.section4-float1 p{
+  width: 50%;
+  margin: 0 auto;
+  color: grey;
+}
+
+div.section4-float2 img{
+  padding: 0 15px;
+  max-width: 20%;
+  margin: 2% 2%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.section4-float3 {
+  width: 40%;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.section4-float4 {
+  width: 60%;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.section4-float3 h2 {
+  font-size: 35px;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.section4-float3 p,.section4-float3 a {
+  text-decoration: none;
+  width: 80%;
+  margin-bottom: 50px;
+  color: grey
+}
+
+.section4-float3 button{
+  margin-bottom: 50px;
+}
+
+.section4-float4 img{
+  height: 350px;
+  width: auto;
+}
+
+.footer {
+  background-color: #32495b;
+  padding: 40px 0;
+  color: white;
+}
+
+.footer-float1 {
+  margin-right: 3%;
+  width: 20%
+}
+
+div.footer-float1 h4{
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+div.footer-float1 span{
+  display: block;
+  color: #f5f8fa;
+  margin-bottom: 10px;
+}
+
+div.footer-float1 span a{
+  color: rgb(206,218,225);
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+div.footer-float1 button {
+  margin: 10px 0;
+  background-color: rgb(206,218,225);
+  border-radius: 5px;
+  font-size: 15px;
+  color: #32495b;
+  height: 40px;
+  width: 200px;
+}
+
+.list-part {
+  text-align: center;
+}
+
+div.footer-float1 div i{
+  color: rgb(206,218,225);
+  margin-right: 25px;
+}
+
+div.footer div.width80 ul, div.footer div.width80 ul li a{
+  color: rgb(206,218,225);
+  margin-top: 100px;
+  text-decoration: none;
+  padding-right: 30px;
+}
+div.footer div.width80 ul, div.footer div.width80 ul li{
+  display: inline-block;
+}
+
+.footer-line {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(206,218,225);
+}
+
+.footer-float2 {
+  width: 85%
+}
+
+.footer-float3 {
+  width: 15%;
+}
+
+div.footer-float3 a{
+  color: rgb(206,218,225);
+  text-decoration: none;
+  margin-right: 20px;
 }
