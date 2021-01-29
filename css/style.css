@@ -311,3 +311,54 @@ div.section2-float1 ul li span i, div.section2-float2 ul li span i{
   color: #ff7514;
   margin-right: 5%;
 }
+
+.section3 {
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 80px
+}
+
+div.section3 h2 {
+  font-size: 35px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.section3 p{
+  font-size: 20px;
+  margin: 40px 0;
+}
+
+.section3-float1 {
+  width: 25%;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.section3-float2 {
+  width: 25%;
+  border-bottom: 1px solid white;
+}
+
+.section3-float3 {
+  width: 25%;
+}
+
+#border-fix {
+  border-bottom: 0;
+}
+
+div.section3-float1 img, div.section3-float2 img, div.section3-float3 img {
+  margin-top: 20px;
+}
+
+div.section3-float1 h2, div.section3-float2 h2, div.section3-float3 h2 {
+  margin: 20px auto;
+}
+
+div.section3-float1 h6, div.section3-float2 h6, div.section3-float3 h6 {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
